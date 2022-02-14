@@ -11,3 +11,7 @@ Template: wp-bootstrap-starter
 #ajax-results .card + .card {
   margin-top: 30px;
 }
+
+section + section {
+  margin-top: 60px;
+}
