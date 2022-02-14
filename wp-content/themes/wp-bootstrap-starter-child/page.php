@@ -5,7 +5,7 @@
     <div class="col-8">
         <?= get_the_content();?>
 
-        <a href="<?= home_url();?>" class="btn btn-primary">Вернуться на главную</a>
+        <a href="<?= home_url();?>" class="btn btn-primary1">Вернуться на главную</a>
     </div>
 </section>
 
