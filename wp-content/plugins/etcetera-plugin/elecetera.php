@@ -40,6 +40,6 @@ function elecetera_scripts(){
 
 add_action("wp_enqueue_scripts", "elecetera_scripts");
 
-require_once PLUGIN_PATH."\inc\class-widgets.php";
+require_once PLUGIN_PATH."/inc/class-widgets.php";
 
-require_once PLUGIN_PATH."\inc\\functions-ajax.php";
+require_once PLUGIN_PATH."/inc/functions-ajax.php";

@@ -3,3 +3,11 @@ Theme Name: WP Bootstrap Starter Child
 Author: Illia Humeniuk
 Template: wp-bootstrap-starter
 */
+
+.card + .card {
+  margin-left: 30px;
+}
+
+#ajax-results .card + .card {
+  margin-top: 30px;
+}

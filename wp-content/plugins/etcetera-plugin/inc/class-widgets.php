@@ -18,7 +18,7 @@ class searchPropertyForm extends WP_Widget{
 
     public function widget($args, $instance)
     {
-        require_once PLUGIN_PATH."\content\widgets\search-property-form.php";
+        require_once PLUGIN_PATH."/content/widgets/search-property-form.php";
     }
 
     public function form($instance)
